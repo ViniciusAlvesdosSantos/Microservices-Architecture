@@ -1,13 +1,14 @@
-package io.github.cursodsousa.msclientes;
+package io.github.microservices_architecture.msclient;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MsclientesApplication {
+@EnableEurekaClient
+public class MsclientApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MsclientesApplication.class, args);
+		SpringApplication.run(MsclientApplication.class, args);
 	}
 
 }

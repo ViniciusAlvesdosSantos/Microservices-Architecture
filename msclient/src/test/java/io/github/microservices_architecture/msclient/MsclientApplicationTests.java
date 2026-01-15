@@ -1,10 +1,10 @@
-package io.github.cursodsousa.msclientes;
+package io.github.microservices_architecture.msclient;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MsclientesApplicationTests {
+class MsclientApplicationTests {
 
 	@Test
 	void contextLoads() {
